@@ -20,7 +20,6 @@ var plusOne = function(digits) {
   let index = digits.length - 1;
   while(index >= 0) {
       let digit = digits[index];
-      let sDigit = digit.toString();
       if(digit < 9) {
           digits[index] = digit + 1;
           break;
